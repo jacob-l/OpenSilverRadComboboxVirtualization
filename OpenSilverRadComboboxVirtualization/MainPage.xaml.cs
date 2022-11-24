@@ -21,7 +21,7 @@ namespace OpenSilverRadComboboxVirtualization
                 new Language { ID = 2, DisplayName = "French" },
             };
 
-            for (var i = 0; i < 1; i++)
+            for (var i = 0; i < 200; i++)
             {
                 languages.Add(new Language
                 {

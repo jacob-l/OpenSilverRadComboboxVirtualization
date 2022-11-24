@@ -10,6 +10,11 @@
     mc:Ignorable="d">
     <StackPanel>
         <telerik:RadComboBox x:Name="Rcb" DisplayMemberPath="DisplayName" Height="25">
+            <telerik:RadComboBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel />
+                </ItemsPanelTemplate>
+            </telerik:RadComboBox.ItemsPanel>
         </telerik:RadComboBox>
     </StackPanel>
     

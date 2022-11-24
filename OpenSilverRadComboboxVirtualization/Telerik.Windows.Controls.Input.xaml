@@ -2272,7 +2272,7 @@
               TooltipPlacementTarget="{Binding RelativeSource={RelativeSource TemplatedParent}}"
               TooltipContent="{Binding Path=(Validation.Errors), RelativeSource={RelativeSource TemplatedParent}}"/>
       <Popup x:Name="PART_Popup" Margin="0 1" VerticalOffset="1">
-        <Grid x:Name="PopupRoot">
+        <Grid x:Name="PopupRoot" IsAutoHeightOnCustomLayout="True" CustomLayout="True">
           <Border
                   BorderThickness="{TemplateBinding BorderThickness}"
                   BorderBrush="{TemplateBinding BorderBrush}"
